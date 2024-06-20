@@ -1,19 +1,19 @@
 {
   "force": false,
   "site_url": "",
-  "cdn": "",
+  "cdn": "https://cdn.jsdelivr.net/npm/alist-web@$version/dist",
   "jwt_secret": "ZzSDTM6Yorjnb2F2",
   "token_expires_in": 48,
   "database": {
-    "type": "sqlite3",
-    "host": "",
-    "port": 0,
-    "user": "",
-    "password": "",
-    "name": "",
+    "type": "postgres",
+    "host": "pgsql4.serv00.com",
+    "port": 5432,
+    "user": "p2077_alist",
+    "password": "Kkraju00",
+    "name": "p2077_alist",
     "db_file": "data/data.db",
-    "table_prefix": "x_",
-    "ssl_mode": "",
+    "table_prefix": "Alist_",
+    "ssl_mode": "true",
     "dsn": ""
   },
   "meilisearch": {
