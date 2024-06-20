@@ -2,35 +2,35 @@ services:
   # A Docker web service
   - type: web
     name: alist
-    env: docker
-    repo: https://github.com/alist-org/alist-render.git # optional
-    region: oregon # optional (defaults to oregon)
+    runtime: docker
+    region: frankfurt
+    repo: https://github.com/Kkbrothers8795/alist-render.git # optional
     plan: free # optional (defaults to starter)
     healthCheckPath: /
     envVars:
       - key: PORT
         value: 5244
       - key: DB_TYPE
-        # value: sqlite3
-        sync: false
+        value: pssql
+        sync: true
       - key: DB_HOST
-        # value: db_host
-        sync: false
+        value: pgsql4.serv00.com
+        sync: true
       - key: DB_PORT
-        # value: 3306
-        sync: false
+        value: 5432
+        sync: true
       - key: DB_USER
-        # value: db_user
-        sync: false
+        value: p2077_alist
+        sync: true
       - key: DB_PASS
-        # value: db_password
-        sync: false
+        value: Kkraju00
+        sync: true
       - key: DB_NAME
-        # value: db_name
-        sync: false
+        value: p2077_alist
+        sync: true
       - key: DB_TABLE_PREFIX
-        # value: alist_
-        sync: false
+        value: alist_
+        sync: true
       - key: CDN
-        # value: https://npm.elemecdn.com/alist-web@$version/dist
-        sync: false
+        value: https://npm.elemecdn.com/alist-web@$version/dist
+        sync: true
