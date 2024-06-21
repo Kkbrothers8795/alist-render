@@ -75,8 +75,8 @@
     ]
   },
   "s3": {
-    "enable": false,
+    "enable": true,
     "port": 5246,
-    "ssl": false
+    "ssl": true
   }
 }
