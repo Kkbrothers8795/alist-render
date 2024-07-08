@@ -1,7 +1,7 @@
 FROM xhofe/alist:latest-ffmpeg
 LABEL MAINTAINER="i@nn.ci"
 WORKDIR /opt/alist/
-
+COPY . ./data/
 EXPOSE 5244:5244
 ENV PUID=0
 ENV PGID=0
