@@ -5,15 +5,15 @@
   "jwt_secret": "ZzSDTM6Yorjnb2F2",
   "token_expires_in": 48,
   "database": {
-    "type": "postgres",
-    "host": "pgsql4.serv00.com",
-    "port": 5432,
-    "user": "p2077_alist",
-    "password": "Kkraju00",
-    "name": "p2077_alist",
+    "type": "mysql",
+    "host": "alist-alist-web.d.aivencloud.com",
+    "port": 11571,
+    "user": "Alist",
+    "password": "AVNS_0Vvllgs5Up5xLRHmYZJ",
+    "name": "Alist",
     "db_file": "data/data.db",
-    "table_prefix": "Alist_",
-    "ssl_mode": "true",
+    "table_prefix": "A_",
+    "ssl_mode": "false",
     "dsn": ""
   },
   "meilisearch": {
@@ -23,7 +23,7 @@
   },
   "scheme": {
     "address": "0.0.0.0",
-    "http_port": 5244,
+    "http_port": 5173,
     "https_port": -1,
     "force_https": false,
     "cert_file": "",
@@ -75,7 +75,7 @@
     ]
   },
   "s3": {
-    "enable": true,
+    "enable": false,
     "port": 5246,
     "ssl": true
   }
