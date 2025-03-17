@@ -1,6 +1,6 @@
 {
   "force": false,
-  "site_url": "",
+  "site_url": "zk-alist.easypanel.host",
   "cdn": "https://cdn.jsdelivr.net/npm/alist-web@$version/dist",
   "jwt_secret": "ZzSDTM6Yorjnb2F2",
   "token_expires_in": 48,
@@ -23,8 +23,8 @@
   },
   "scheme": {
     "address": "0.0.0.0",
-    "http_port": 5244,
-    "https_port": -1,
+    "http_port": 5243,
+    "https_port": 5244,
     "force_https": false,
     "cert_file": "",
     "key_file": "",
